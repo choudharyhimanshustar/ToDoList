@@ -1,0 +1,45 @@
+.AddTask {
+    background-color: aquamarine;
+    width: 80%;
+    height: auto;
+    position: fixed;
+    left: 10%;
+    height: 80%;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 3.5%;
+    padding-top: 1.5%;
+}
+
+.PriorityInputCSS {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+
+.PrioritySubHead {
+    display: flex;
+    flex-direction: row;
+    gap: 3%
+}
+.SubmitButton
+{
+    border-radius: 2.5rem;
+    width:20%;
+    border: none;
+    padding: 1%;
+    margin-top: 1%;
+    position: relative;
+    left:37%;
+    background-color: rgb(25, 204, 156);
+    cursor: pointer;
+    color:azure;
+    font-size: larger;
+    font-weight: bold;
+}
+.TaskNameCSS {
+    width: 90%;
+    border-radius: 2.5rem;
+    border: none;
+    padding: 1%;
+}
